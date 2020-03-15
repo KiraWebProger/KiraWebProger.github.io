@@ -1,0 +1,46 @@
+body{
+	margin: 0;
+}
+h1{
+	font-size: 35px;
+	text-align: center;
+	margin-bottom: 30px;
+	margin-top: 0;
+	padding-top:20px; 
+	font-family: 'Permanent Marker', cursive;
+}
+.box{
+	width: 80%;
+	margin: 0 auto;
+	background-color: #F4C8C8;
+	padding-bottom: 60px;
+}
+a{
+	display: block;
+	height:calc((1350px/2)/16 *9 - 60px);
+	width: calc(100%/2 - 20px);
+	margin-left: 10px;
+	transition: all 0.5s ease;
+}
+a div{
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height:calc((1350px/2)/16 *9 - 60px);
+}
+.flex{
+	width: 100%;
+	display: flex;
+	height: calc((1350px/2)/16 *9 - 50px);
+	flex-direction: row;
+	justify-content: center;
+}
+.flex a:nth-child(1){
+	margin-left: 0;
+}
+a:hover{
+	transform: scale(1.1);
+}
+.flex:nth-of-type(3){
+	margin-top: 50px;
+}
